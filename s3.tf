@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "nwhitebucket" {
+resource "aws_s3_bucket" "mynwhitebucket" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
